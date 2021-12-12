@@ -6,13 +6,43 @@ body{
 .img{
   vertical-align: middle;
 }
+.parrentbox{
+  width:100vm;
+  height:40vh;
+}
 .box{
   background-color: rgb(81, 70, 145);
   color: rgb(0, 0, 0);
-  display: block;
-  width: max-content;
-  height: max-content;
+  display: inline-block;
+  width:48vw;
+  height: 20vh;
+  float:left;
 }
+.secondbox{
+  background-color: violet;
+  color: yellow;
+  display:inline-block;
+  width: 48vw;
+  height: 20vh;
+  float:center;
+}
+.thirdbox{
+  background-color: rgb(243, 34, 215);
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  width: 48vw;
+  height: 20vh;
+  float:left;
+}
+.fourthbox{
+  background-color: rgb(33, 185, 231);
+  color: rgb(255, 82, 1);
+  display:inline-block;
+  width: 48vw;
+  height: 20vh;
+  float:center;
+}
+
 
 h1 {
 
