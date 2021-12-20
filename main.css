@@ -21,42 +21,50 @@ body{
 .paragraph{
   padding-top: 1%;
   padding-left:2%;
-  font-size:1.5vw;
+  font-size:1.4vw;
 }
 .parrentbox{
   width:100vm;
-  height:40vh;
+  height:50vh;
 }
 .box{
   display: inline-block;
-  width:44vw;
-  height: 24vh;
   border-width:1vw;
   border-style:groove;
   border-color:brown;
   border-radius:8%;
+  box-sizing: border-box;
 }
 .firstbox{
   background-color: rgb(81, 70, 145);
   color: rgb(0, 0, 0);
-  float:left;
-  overflow:hidden;
 }
 .secondbox{
   background-color: violet;
   color: yellow;
-  float:center;
 }
 .thirdbox{
   background-color: rgb(243, 34, 215);
   color: rgb(0, 0, 0);
-  float:left;
 }
 .fourthbox{
   background-color: rgb(33, 185, 231);
   color: rgb(255, 82, 1);
-  float:center;
 }
 h1 {
   color: #d80b0b ; 
+}
+.list{
+  list-style-type:disc;
+}
+.grid{
+  display:grid;
+  grid-template-columns: 50vw 50vw;
+  grid-template-rows: 1fr 1fr;
+  column-gap:10px;
+  row-gap: 10px;
+}
+
+.grid__item{
+
 }
