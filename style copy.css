@@ -39,7 +39,9 @@ header {
   background-color: crimson; }
 
 .img {
-  vertical-align: middle; }
+  vertical-align: middle;
+ height: 100px;
+width:100px }
 
 .paragraph {
   padding-top: 1%;
